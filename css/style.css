@@ -24,10 +24,36 @@ body {
     border: none;
 }
 
+.input {
+    border-bottom: 0.1rem solid rgb(196, 195, 195);
+}
+
+.input label {
+    width: 14%;
+}
+
+.input textarea{
+    width: 100%;
+    border: none;
+}
+
+.input input {
+    width: 85%;
+    border: none;
+}
+
 .btn-transparent {
     text-transform: capitalize;
     background-color: transparent;
     border: 0.1rem solid #fff;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.btn-green {
+    text-transform: capitalize;
+    background-color: #1abc9c;
+    border: none;
     color: #fff;
     border-radius: 0.5rem;
 }
@@ -86,6 +112,11 @@ header {
     background-color: #2c3e50;
 }
 
+footer {
+    background-color: #3a546d;
+    color: #fff;
+}
+
 .row, .container, .container-xs, .container-sm, .container-md {
     height: 100%;
 }
@@ -96,6 +127,23 @@ header {
 
 .green {
     background-color: #1abc9c;
+}
+
+.icone {
+    width: 100%;
+}
+
+.rounded {
+    height: 50px;
+}
+
+.rounded i{
+    border: 0.1rem solid #fff;
+    border-radius: 10rem;
+    width: 50px;
+    height: 50px;
+    vertical-align: midle;
+    font-size: 1.5rem;
 }
 
 .sezione-1 .contenuto, .sezione-3 .contenuto {
