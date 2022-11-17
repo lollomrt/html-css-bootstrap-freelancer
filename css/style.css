@@ -37,6 +37,10 @@ h3 {
     text-transform: uppercase;
 }
 
+.border-radius {
+    border-radius: 1rem;
+}
+
 .container-star {
     display: flex;
     justify-content: center;
@@ -48,8 +52,15 @@ h3 {
     width: 30%;
     height: 0.2rem;
     border: none;
-    background: #fff;
     opacity: 1;
+}
+
+.sezione-1 hr {
+    background: #fff;
+}
+
+.sezione-2 hr {
+    background: #000;
 }
 
 header {
