@@ -112,6 +112,24 @@ header {
     background-color: #2c3e50;
 }
 
+.grey {
+    background-color: #2c3e50;
+}
+
+header h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header i {
+    color: white;
+}
+
+header li {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 footer {
     background-color: #3a546d;
     color: #fff;
@@ -121,8 +139,8 @@ footer {
     height: 100%;
 }
 
-.red {
-    background-color: red;
+.navy {
+    background-color: #2c3e50;
 }
 
 .green {
@@ -134,7 +152,17 @@ footer {
 }
 
 .rounded {
+    
     height: 50px;
+    
+}
+
+.color-white {
+    color: #fff;
+}
+
+.justify-end {
+    justify-content: flex-end;
 }
 
 .rounded i{
@@ -142,8 +170,14 @@ footer {
     border-radius: 10rem;
     width: 50px;
     height: 50px;
-    vertical-align: midle;
     font-size: 1.5rem;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1abc9c;
 }
 
 .sezione-1 .contenuto, .sezione-3 .contenuto {
